@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <div class="content">
+        <div class="block" row="0" col="0" id="b1"></div>
+        <div class="block" row="0" col="1" id="b2"></div>
+        <div class="block" row="0" col="2" id="b3"></div>
+        <div class="block" row="1" col="0" id="b4"></div>
+        <div class="block" row="1" col="1" id="b5"></div>
+        <div class="block" row="1" col="2" id="b6"></div>
+        <div class="block" row="2" col="0" id="b7"></div>
+        <div class="block" row="2" col="1" id="b8"></div>
+        <div class="block" row="2" col="2" id="b9"></div>
+    </div>
+
+    <div class="painel">
+        <button id="start">Iniciar Jogo</button>
+        <p>Vez do jogador: </p><span id="jogador-atual"></span>
+    </div>
+    
+</body>
+</html>

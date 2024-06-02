@@ -1,0 +1,28 @@
+.content {
+    position: absolute;
+    flex-wrap: wrap;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    height: 190px;
+    width: 190px;
+}
+
+.block {
+    width: 60px;
+    border: 1px solid #000;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel {
+    display: inline-flex;
+    flex-direction: column;
+}
